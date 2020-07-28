@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: TQ API
+  version: '1.0'
+servers:
+  - url: 'http://localhost:8001/api'
+paths:
+  /plan:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-plan
+components:
+  schemas: {}
